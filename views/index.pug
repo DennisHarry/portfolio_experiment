@@ -1,1 +1,15 @@
-p Hello Pug!
+extends default
+
+block content
+  div.container
+    each person in people
+      .person
+        div.person-image(style=`background: url('/images/${person.imgSrc}') top center
+        no-repeat; background-size: cover;`)        
+        h2.person-name
+          | #{person.firstname} #{person.lastname}
+        //- p
+        //-   | #{person.tagline}
+        //-   | #{person.bio}
+        a(href='/profile?id=${person.id}')
+          | View Profile
