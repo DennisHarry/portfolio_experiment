@@ -9,6 +9,7 @@ You can [access the tutorial here](https://freshman.tech/learn-node).
 [Live demo](https://freshman-node.herokuapp.com/)
 
 ## Instructions
+
 1. Clone repo
 2. Run `npm install`
 
@@ -16,4 +17,6 @@ You can [access the tutorial here](https://freshman.tech/learn-node).
 
 Need some help? Want to chat with the other learners? The [Freshman Gitter Chat](https://gitter.im/FreshmanHQ/freshman) is where you should be asking questions — this repo is meant as a place to grab the starter files and isn't a support channel.
 
+---
 
+Tutorial is here: https://freshman.tech/learn-node/
